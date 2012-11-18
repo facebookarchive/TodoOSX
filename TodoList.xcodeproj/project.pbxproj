@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		971A014816432CF000B7DE40 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A014716432CF000B7DE40 /* Cocoa.framework */; };
+		971A015216432CF000B7DE40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 971A015016432CF000B7DE40 /* InfoPlist.strings */; };
+		971A015416432CF000B7DE40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 971A015316432CF000B7DE40 /* main.m */; };
+		971A015816432CF000B7DE40 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 971A015616432CF000B7DE40 /* Credits.rtf */; };
+		971A015B16432CF000B7DE40 /* TDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 971A015A16432CF000B7DE40 /* TDAppDelegate.m */; };
+		971A015E16432CF000B7DE40 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971A015C16432CF000B7DE40 /* MainMenu.xib */; };
+		971A016516432EDE00B7DE40 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016416432EDE00B7DE40 /* Parse.framework */; };
+		971A016716432EEE00B7DE40 /* Parse.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 971A016416432EDE00B7DE40 /* Parse.framework */; };
+		971A017416432F2D00B7DE40 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016816432F2D00B7DE40 /* Accounts.framework */; };
+		971A017516432F2D00B7DE40 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016916432F2D00B7DE40 /* AudioToolbox.framework */; };
+		971A017616432F2D00B7DE40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016A16432F2D00B7DE40 /* CFNetwork.framework */; };
+		971A017716432F2D00B7DE40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016B16432F2D00B7DE40 /* CoreGraphics.framework */; };
+		971A017816432F2D00B7DE40 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016C16432F2D00B7DE40 /* CoreLocation.framework */; };
+		971A017916432F2D00B7DE40 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016D16432F2D00B7DE40 /* libsqlite3.dylib */; };
+		971A017A16432F2D00B7DE40 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016E16432F2D00B7DE40 /* libz.1.1.3.dylib */; };
+		971A017B16432F2D00B7DE40 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016F16432F2D00B7DE40 /* QuartzCore.framework */; };
+		971A017C16432F2D00B7DE40 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A017016432F2D00B7DE40 /* Security.framework */; };
+		971A017D16432F2D00B7DE40 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A017116432F2D00B7DE40 /* Social.framework */; };
+		971A017E16432F2D00B7DE40 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A017216432F2D00B7DE40 /* StoreKit.framework */; };
+		971A017F16432F2D00B7DE40 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A017316432F2D00B7DE40 /* SystemConfiguration.framework */; };
+		971A01831643395A00B7DE40 /* TDMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971A01811643395A00B7DE40 /* TDMainWindowController.m */; };
+		971A01841643395A00B7DE40 /* TDMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971A01821643395A00B7DE40 /* TDMainWindowController.xib */; };
+		974269441652D5BA00F2BC57 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974269431652D5BA00F2BC57 /* ApplicationServices.framework */; };
+		977C4CE61653128600EBE3B6 /* TDAuthWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977C4CE41653128600EBE3B6 /* TDAuthWindowController.m */; };
+		977C4CE71653128600EBE3B6 /* TDAuthWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977C4CE51653128600EBE3B6 /* TDAuthWindowController.xib */; };
+		977C4CEB1653589D00EBE3B6 /* TDItemTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 977C4CEA1653589D00EBE3B6 /* TDItemTableCellView.m */; };
+		97F735511658658200C4B72A /* TodoList.icns in Resources */ = {isa = PBXBuildFile; fileRef = 97F735501658658200C4B72A /* TodoList.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		971A016616432EE400B7DE40 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				971A016716432EEE00B7DE40 /* Parse.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		971A014316432CF000B7DE40 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		971A014716432CF000B7DE40 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		971A014A16432CF000B7DE40 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		971A014B16432CF000B7DE40 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		971A014C16432CF000B7DE40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		971A014F16432CF000B7DE40 /* TodoList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TodoList-Info.plist"; sourceTree = "<group>"; };
+		971A015116432CF000B7DE40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		971A015316432CF000B7DE40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		971A015516432CF000B7DE40 /* TodoList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TodoList-Prefix.pch"; sourceTree = "<group>"; };
+		971A015716432CF000B7DE40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		971A015916432CF000B7DE40 /* TDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDAppDelegate.h; sourceTree = "<group>"; };
+		971A015A16432CF000B7DE40 /* TDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDAppDelegate.m; sourceTree = "<group>"; };
+		971A015D16432CF000B7DE40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		971A016416432EDE00B7DE40 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		971A016816432F2D00B7DE40 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		971A016916432F2D00B7DE40 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		971A016A16432F2D00B7DE40 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		971A016B16432F2D00B7DE40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		971A016C16432F2D00B7DE40 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		971A016D16432F2D00B7DE40 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		971A016E16432F2D00B7DE40 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		971A016F16432F2D00B7DE40 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		971A017016432F2D00B7DE40 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		971A017116432F2D00B7DE40 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		971A017216432F2D00B7DE40 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		971A017316432F2D00B7DE40 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		971A01801643395A00B7DE40 /* TDMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMainWindowController.h; sourceTree = "<group>"; };
+		971A01811643395A00B7DE40 /* TDMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMainWindowController.m; sourceTree = "<group>"; };
+		971A01821643395A00B7DE40 /* TDMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDMainWindowController.xib; sourceTree = "<group>"; };
+		974269431652D5BA00F2BC57 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		977C4CE31653128600EBE3B6 /* TDAuthWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAuthWindowController.h; sourceTree = "<group>"; };
+		977C4CE41653128600EBE3B6 /* TDAuthWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAuthWindowController.m; sourceTree = "<group>"; };
+		977C4CE51653128600EBE3B6 /* TDAuthWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDAuthWindowController.xib; sourceTree = "<group>"; };
+		977C4CE91653589D00EBE3B6 /* TDItemTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDItemTableCellView.h; sourceTree = "<group>"; };
+		977C4CEA1653589D00EBE3B6 /* TDItemTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDItemTableCellView.m; sourceTree = "<group>"; };
+		97F735501658658200C4B72A /* TodoList.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TodoList.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		971A014016432CF000B7DE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974269441652D5BA00F2BC57 /* ApplicationServices.framework in Frameworks */,
+				971A017416432F2D00B7DE40 /* Accounts.framework in Frameworks */,
+				971A017516432F2D00B7DE40 /* AudioToolbox.framework in Frameworks */,
+				971A017616432F2D00B7DE40 /* CFNetwork.framework in Frameworks */,
+				971A017716432F2D00B7DE40 /* CoreGraphics.framework in Frameworks */,
+				971A017816432F2D00B7DE40 /* CoreLocation.framework in Frameworks */,
+				971A017916432F2D00B7DE40 /* libsqlite3.dylib in Frameworks */,
+				971A017A16432F2D00B7DE40 /* libz.1.1.3.dylib in Frameworks */,
+				971A017B16432F2D00B7DE40 /* QuartzCore.framework in Frameworks */,
+				971A017C16432F2D00B7DE40 /* Security.framework in Frameworks */,
+				971A017D16432F2D00B7DE40 /* Social.framework in Frameworks */,
+				971A017E16432F2D00B7DE40 /* StoreKit.framework in Frameworks */,
+				971A017F16432F2D00B7DE40 /* SystemConfiguration.framework in Frameworks */,
+				971A014816432CF000B7DE40 /* Cocoa.framework in Frameworks */,
+				971A016516432EDE00B7DE40 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		971A013816432CF000B7DE40 = {
+			isa = PBXGroup;
+			children = (
+				971A014D16432CF000B7DE40 /* TodoList */,
+				971A014616432CF000B7DE40 /* Frameworks */,
+				971A014416432CF000B7DE40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		971A014416432CF000B7DE40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				971A014316432CF000B7DE40 /* TodoList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		971A014616432CF000B7DE40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				974269431652D5BA00F2BC57 /* ApplicationServices.framework */,
+				971A016416432EDE00B7DE40 /* Parse.framework */,
+				971A014716432CF000B7DE40 /* Cocoa.framework */,
+				971A016816432F2D00B7DE40 /* Accounts.framework */,
+				971A016916432F2D00B7DE40 /* AudioToolbox.framework */,
+				971A016A16432F2D00B7DE40 /* CFNetwork.framework */,
+				971A016B16432F2D00B7DE40 /* CoreGraphics.framework */,
+				971A016C16432F2D00B7DE40 /* CoreLocation.framework */,
+				971A016D16432F2D00B7DE40 /* libsqlite3.dylib */,
+				971A016E16432F2D00B7DE40 /* libz.1.1.3.dylib */,
+				971A016F16432F2D00B7DE40 /* QuartzCore.framework */,
+				971A017016432F2D00B7DE40 /* Security.framework */,
+				971A017116432F2D00B7DE40 /* Social.framework */,
+				971A017216432F2D00B7DE40 /* StoreKit.framework */,
+				971A017316432F2D00B7DE40 /* SystemConfiguration.framework */,
+				971A014916432CF000B7DE40 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		971A014916432CF000B7DE40 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				971A014A16432CF000B7DE40 /* AppKit.framework */,
+				971A014B16432CF000B7DE40 /* CoreData.framework */,
+				971A014C16432CF000B7DE40 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		971A014D16432CF000B7DE40 /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				977DFE5A164341F700FFFB0C /* Resources */,
+				971A015916432CF000B7DE40 /* TDAppDelegate.h */,
+				971A015A16432CF000B7DE40 /* TDAppDelegate.m */,
+				971A01801643395A00B7DE40 /* TDMainWindowController.h */,
+				971A01811643395A00B7DE40 /* TDMainWindowController.m */,
+				977C4CE31653128600EBE3B6 /* TDAuthWindowController.h */,
+				977C4CE41653128600EBE3B6 /* TDAuthWindowController.m */,
+				977C4CE91653589D00EBE3B6 /* TDItemTableCellView.h */,
+				977C4CEA1653589D00EBE3B6 /* TDItemTableCellView.m */,
+				971A014E16432CF000B7DE40 /* Supporting Files */,
+			);
+			path = TodoList;
+			sourceTree = "<group>";
+		};
+		971A014E16432CF000B7DE40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				971A014F16432CF000B7DE40 /* TodoList-Info.plist */,
+				971A015016432CF000B7DE40 /* InfoPlist.strings */,
+				971A015316432CF000B7DE40 /* main.m */,
+				971A015516432CF000B7DE40 /* TodoList-Prefix.pch */,
+				971A015616432CF000B7DE40 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		977DFE5A164341F700FFFB0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				971A015C16432CF000B7DE40 /* MainMenu.xib */,
+				971A01821643395A00B7DE40 /* TDMainWindowController.xib */,
+				977C4CE51653128600EBE3B6 /* TDAuthWindowController.xib */,
+				97F735501658658200C4B72A /* TodoList.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		971A014216432CF000B7DE40 /* TodoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971A016116432CF000B7DE40 /* Build configuration list for PBXNativeTarget "TodoList" */;
+			buildPhases = (
+				971A013F16432CF000B7DE40 /* Sources */,
+				971A014016432CF000B7DE40 /* Frameworks */,
+				971A014116432CF000B7DE40 /* Resources */,
+				971A016616432EE400B7DE40 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoList;
+			productName = TodoList;
+			productReference = 971A014316432CF000B7DE40 /* TodoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		971A013A16432CF000B7DE40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TD;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Parse;
+			};
+			buildConfigurationList = 971A013D16432CF000B7DE40 /* Build configuration list for PBXProject "TodoList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 971A013816432CF000B7DE40;
+			productRefGroup = 971A014416432CF000B7DE40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				971A014216432CF000B7DE40 /* TodoList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		971A014116432CF000B7DE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971A015216432CF000B7DE40 /* InfoPlist.strings in Resources */,
+				971A015816432CF000B7DE40 /* Credits.rtf in Resources */,
+				971A015E16432CF000B7DE40 /* MainMenu.xib in Resources */,
+				971A01841643395A00B7DE40 /* TDMainWindowController.xib in Resources */,
+				977C4CE71653128600EBE3B6 /* TDAuthWindowController.xib in Resources */,
+				97F735511658658200C4B72A /* TodoList.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		971A013F16432CF000B7DE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971A015416432CF000B7DE40 /* main.m in Sources */,
+				971A015B16432CF000B7DE40 /* TDAppDelegate.m in Sources */,
+				971A01831643395A00B7DE40 /* TDMainWindowController.m in Sources */,
+				977C4CE61653128600EBE3B6 /* TDAuthWindowController.m in Sources */,
+				977C4CEB1653589D00EBE3B6 /* TDItemTableCellView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		971A015016432CF000B7DE40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				971A015116432CF000B7DE40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		971A015616432CF000B7DE40 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				971A015716432CF000B7DE40 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		971A015C16432CF000B7DE40 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				971A015D16432CF000B7DE40 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		971A015F16432CF000B7DE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		971A016016432CF000B7DE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		971A016216432CF000B7DE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TodoList/TodoList-Prefix.pch";
+				INFOPLIST_FILE = "TodoList/TodoList-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		971A016316432CF000B7DE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TodoList/TodoList-Prefix.pch";
+				INFOPLIST_FILE = "TodoList/TodoList-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		971A013D16432CF000B7DE40 /* Build configuration list for PBXProject "TodoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971A015F16432CF000B7DE40 /* Debug */,
+				971A016016432CF000B7DE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		971A016116432CF000B7DE40 /* Build configuration list for PBXNativeTarget "TodoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971A016216432CF000B7DE40 /* Debug */,
+				971A016316432CF000B7DE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 971A013A16432CF000B7DE40 /* Project object */;
+}
