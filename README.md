@@ -1,7 +1,7 @@
 OS X Todo
 ============
 
-This is a sample application that showcases the Parse iOS / OS X SDK. It contains an Objective-C solution that shows how easy it is to get started creating and storing data using Parse as your backend for your Cocoa application.
+This is a sample application that showcases the Parse iOS / OS X SDK. It contains an Objective-C solution that shows how easy it is to get started creating and storing data using Parse as your backend for your Cocoa application. It's targeted at 10.7, but the Parse SDK supports apps back to 10.6.
 
 How to Run
 ----------
