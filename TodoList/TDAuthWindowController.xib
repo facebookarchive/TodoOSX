@@ -658,7 +658,7 @@ A</bytes>
 									<object class="NSTextFieldCell" key="NSCell" id="602607950">
 										<int key="NSCellFlags">67108864</int>
 										<int key="NSCellFlags2">272629760</int>
-										<string key="NSContents">Enter your username or the email address associated with your account.</string>
+										<string key="NSContents">Enter the email address associated with your account.</string>
 										<object class="NSFont" key="NSSupport">
 											<string key="NSName">HelveticaNeue-Light</string>
 											<double key="NSSize">11</double>
@@ -713,7 +713,7 @@ A</bytes>
 										<int key="NSCellFlags2">4195328</int>
 										<string key="NSContents"/>
 										<reference key="NSSupport" ref="569213464"/>
-										<string key="NSPlaceholderString">Username or email</string>
+										<string key="NSPlaceholderString">Email</string>
 										<string key="NSCellIdentifier">_NS:9</string>
 										<reference key="NSControlView" ref="999504674"/>
 										<bool key="NSDrawsBackground">YES</bool>
