@@ -9,7 +9,7 @@
 #import "TDAuthWindowController.h"
 #import "TDAppDelegate.h"
 
-#import <Parse/Parse.h>
+#import <ParseOSX/Parse.h>
 
 @interface TDAuthWindowController ()
 // Hide all authentication views and deselect toggles, in preparation for showing

@@ -6,11 +6,11 @@
 //  Copyright (c) 2012 Parse. All rights reserved.
 //
 
-#import <Parse/Parse.h>
-
 #import "TDAppDelegate.h"
 #import "TDMainWindowController.h"
 #import "TDAuthWindowController.h"
+
+#import <ParseOSX/Parse.h>
 
 @implementation TDAppDelegate
 

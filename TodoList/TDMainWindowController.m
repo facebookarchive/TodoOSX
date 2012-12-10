@@ -6,10 +6,10 @@
 //  Copyright (c) 2012 Parse. All rights reserved.
 //
 
-#import <Parse/Parse.h>
 #import "TDMainWindowController.h"
-
 #import "TDItemTableCellView.h"
+
+#import <ParseOSX/Parse.h>
 
 typedef enum {
     // Corresponds to the 1st segment of the segmented control: "All" todos

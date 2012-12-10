@@ -8,6 +8,8 @@
 
 #import "TDItemTableCellView.h"
 
+#import <ParseOSX/Parse.h>
+
 @interface TDItemTableCellView ()
 @property (strong, nonatomic) NSBox *strikethrough;
 @end

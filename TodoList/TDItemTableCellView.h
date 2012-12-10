@@ -7,7 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <Parse/Parse.h>
+
+@class PFObject;
 
 @interface TDItemTableCellView : NSView
 // The editable text field displaying the body of the To-Do item.

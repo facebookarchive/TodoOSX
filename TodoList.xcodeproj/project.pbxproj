@@ -13,8 +13,6 @@
 		971A015816432CF000B7DE40 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 971A015616432CF000B7DE40 /* Credits.rtf */; };
 		971A015B16432CF000B7DE40 /* TDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 971A015A16432CF000B7DE40 /* TDAppDelegate.m */; };
 		971A015E16432CF000B7DE40 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971A015C16432CF000B7DE40 /* MainMenu.xib */; };
-		971A016516432EDE00B7DE40 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016416432EDE00B7DE40 /* Parse.framework */; };
-		971A016716432EEE00B7DE40 /* Parse.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 971A016416432EDE00B7DE40 /* Parse.framework */; };
 		971A017416432F2D00B7DE40 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016816432F2D00B7DE40 /* Accounts.framework */; };
 		971A017516432F2D00B7DE40 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016916432F2D00B7DE40 /* AudioToolbox.framework */; };
 		971A017616432F2D00B7DE40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016A16432F2D00B7DE40 /* CFNetwork.framework */; };
@@ -33,6 +31,8 @@
 		977C4CE61653128600EBE3B6 /* TDAuthWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977C4CE41653128600EBE3B6 /* TDAuthWindowController.m */; };
 		977C4CE71653128600EBE3B6 /* TDAuthWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977C4CE51653128600EBE3B6 /* TDAuthWindowController.xib */; };
 		977C4CEB1653589D00EBE3B6 /* TDItemTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 977C4CEA1653589D00EBE3B6 /* TDItemTableCellView.m */; };
+		97DFCFA21676659E0094BE60 /* ParseOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DFCFA11676659E0094BE60 /* ParseOSX.framework */; };
+		97DFCFA3167665A30094BE60 /* ParseOSX.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 97DFCFA11676659E0094BE60 /* ParseOSX.framework */; };
 		97F735511658658200C4B72A /* TodoList.icns in Resources */ = {isa = PBXBuildFile; fileRef = 97F735501658658200C4B72A /* TodoList.icns */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				971A016716432EEE00B7DE40 /* Parse.framework in CopyFiles */,
+				97DFCFA3167665A30094BE60 /* ParseOSX.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,6 @@
 		971A015916432CF000B7DE40 /* TDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDAppDelegate.h; sourceTree = "<group>"; };
 		971A015A16432CF000B7DE40 /* TDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDAppDelegate.m; sourceTree = "<group>"; };
 		971A015D16432CF000B7DE40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		971A016416432EDE00B7DE40 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		971A016816432F2D00B7DE40 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		971A016916432F2D00B7DE40 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		971A016A16432F2D00B7DE40 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -85,6 +84,7 @@
 		977C4CE51653128600EBE3B6 /* TDAuthWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDAuthWindowController.xib; sourceTree = "<group>"; };
 		977C4CE91653589D00EBE3B6 /* TDItemTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDItemTableCellView.h; sourceTree = "<group>"; };
 		977C4CEA1653589D00EBE3B6 /* TDItemTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDItemTableCellView.m; sourceTree = "<group>"; };
+		97DFCFA11676659E0094BE60 /* ParseOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseOSX.framework; sourceTree = "<group>"; };
 		97F735501658658200C4B72A /* TodoList.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TodoList.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,7 +107,7 @@
 				971A017E16432F2D00B7DE40 /* StoreKit.framework in Frameworks */,
 				971A017F16432F2D00B7DE40 /* SystemConfiguration.framework in Frameworks */,
 				971A014816432CF000B7DE40 /* Cocoa.framework in Frameworks */,
-				971A016516432EDE00B7DE40 /* Parse.framework in Frameworks */,
+				97DFCFA21676659E0094BE60 /* ParseOSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 		971A014616432CF000B7DE40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				97DFCFA11676659E0094BE60 /* ParseOSX.framework */,
 				974269431652D5BA00F2BC57 /* ApplicationServices.framework */,
-				971A016416432EDE00B7DE40 /* Parse.framework */,
 				971A014716432CF000B7DE40 /* Cocoa.framework */,
 				971A016816432F2D00B7DE40 /* Accounts.framework */,
 				971A016916432F2D00B7DE40 /* AudioToolbox.framework */,
