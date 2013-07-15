@@ -13,7 +13,6 @@
 		971A015816432CF000B7DE40 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 971A015616432CF000B7DE40 /* Credits.rtf */; };
 		971A015B16432CF000B7DE40 /* TDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 971A015A16432CF000B7DE40 /* TDAppDelegate.m */; };
 		971A015E16432CF000B7DE40 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971A015C16432CF000B7DE40 /* MainMenu.xib */; };
-		971A017416432F2D00B7DE40 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016816432F2D00B7DE40 /* Accounts.framework */; };
 		971A017516432F2D00B7DE40 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016916432F2D00B7DE40 /* AudioToolbox.framework */; };
 		971A017616432F2D00B7DE40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016A16432F2D00B7DE40 /* CFNetwork.framework */; };
 		971A017716432F2D00B7DE40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A016B16432F2D00B7DE40 /* CoreGraphics.framework */; };
@@ -63,7 +62,6 @@
 		971A015916432CF000B7DE40 /* TDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDAppDelegate.h; sourceTree = "<group>"; };
 		971A015A16432CF000B7DE40 /* TDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDAppDelegate.m; sourceTree = "<group>"; };
 		971A015D16432CF000B7DE40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		971A016816432F2D00B7DE40 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		971A016916432F2D00B7DE40 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		971A016A16432F2D00B7DE40 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		971A016B16432F2D00B7DE40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,7 +92,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				974269441652D5BA00F2BC57 /* ApplicationServices.framework in Frameworks */,
-				971A017416432F2D00B7DE40 /* Accounts.framework in Frameworks */,
 				971A017516432F2D00B7DE40 /* AudioToolbox.framework in Frameworks */,
 				971A017616432F2D00B7DE40 /* CFNetwork.framework in Frameworks */,
 				971A017716432F2D00B7DE40 /* CoreGraphics.framework in Frameworks */,
@@ -137,7 +134,6 @@
 				97DFCFA11676659E0094BE60 /* ParseOSX.framework */,
 				974269431652D5BA00F2BC57 /* ApplicationServices.framework */,
 				971A014716432CF000B7DE40 /* Cocoa.framework */,
-				971A016816432F2D00B7DE40 /* Accounts.framework */,
 				971A016916432F2D00B7DE40 /* AudioToolbox.framework */,
 				971A016A16432F2D00B7DE40 /* CFNetwork.framework */,
 				971A016B16432F2D00B7DE40 /* CoreGraphics.framework */,
